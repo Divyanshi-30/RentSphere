@@ -1,8 +1,9 @@
-# RentSphere (frontend)
+# RentSphere
 
-    npm install
-    npm run dev
+RentSphere is a rental platform that builds verified trust between tenants and landlords. It includes profiles and verification, digital agreements, rent and deposit tracking, maintenance requests with photos, move-in/move-out inspections, messages, and dispute evidence. Built with React and Vite; backend in progress.
 
-All data comes from `src/api.js` (mock). To connect your backend, replace each
-function body with a `fetch` to `${BASE}/<endpoint>` (endpoint written beside it).
-Set `VITE_API_URL` in a `.env` file. Pages need no changes.
+## Run the frontend
+
+```bash
+npm install
+npm run dev
